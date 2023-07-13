@@ -21,6 +21,7 @@ footer {
   padding: 10px;
   background-color: #ffffff;
   text-align: left;
+  box-sizing: border-box;
 }
 
 h1 {
