@@ -14,11 +14,31 @@ body {
   font-family: 'Nanum Gothic', sans-serif;
 }
 
+input {
+	font-family: 'Nanum Gothic', sans-serif;
+	height: 20px;
+}
+
+input:focus-visible {
+	outline: #EFC3BD auto 1px;
+}
+
+.addbutton {
+	height: 25px;
+	cursor: copy; 
+	background-color: #EFC3BD;
+	border-radius: 4px;
+	padding: 2px 8px;
+	color: rgb(32, 31, 31);
+	border: 1px solid rgb(133, 133, 133);
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
 h1 {
   text-align: center;
   font-size: 36px;
-  font-family: 'Nanum Gothic', sans-serif;
   font-weight: bold;
+  color: rgb(32, 31, 31);
 }
 
 .class {
@@ -77,10 +97,14 @@ li:hover .actions {
 li .actions button {
   margin-left: 5px;
   border-radius: 50%;
-  padding: 5px;
+  padding: 3px;
   background-color: #ccc;
   color: white;
   border: none;
+  width: 20px;
+  height: 20px;
+  cursor: pointer; 
+  text-align: center;
 }
 
 li .actions button.check {
